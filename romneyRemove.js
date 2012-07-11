@@ -14,12 +14,13 @@
 // ==/UserScript==
 
 function romneyRemove(){
-var posts = document.getElementsByClassName("uiStreamMessage");
-
-for(var i=0; i<posts.length; i++){
-	if(posts[i].innerHTML.toLowerCase().indexOf("romney") != -1)
-	{ 
-		posts[i].parentNode.removeChild(posts[i])};
+	var posts = document.getElementsByClassName("uiStreamMessage");
+	
+	for(var i=0; i<posts.length; i++){
+		if(posts[i].innerHTML.toLowerCase().indexOf("romney") != -1)
+		{ 
+			posts[i].parentNode.removeChild(posts[i])};
+		}
 	}
 }
 
