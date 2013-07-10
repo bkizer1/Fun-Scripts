@@ -1,15 +1,12 @@
 // ==UserScript==
 // @name              romneyRemove
-// @description    A script to remove romney from your feed.
+// @description       A script to remove posts about 
+//		      Mitt Romney from your feed.
 // @author            Blake Kizer
 // @include           http://*.facebook.com/*
 // @include           https://*.facebook.com/*
 // @match             http://*.facebook.com/*
 // @match             https://*.facebook.com/*
-// @exclude          http://*.facebook.com/ajax/*
-// @exclude          https://*.facebook.com/ajax/*
-// @exclude          http://*.facebook.com/connect/*
-// @exclude          https://*.facebook.com/connect/*
 // @version          1.0
 // ==/UserScript==
 
